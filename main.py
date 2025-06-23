@@ -131,4 +131,4 @@ def make_post(message):
     bot.send_message(CHANNEL_ID, post, reply_markup=markup)
     bot.reply_to(message, "✅ پست ارسال شد به کانال.")
 
-bot.infinity_polling() 
+bot.infinity_polling()
